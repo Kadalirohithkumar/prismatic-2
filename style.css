@@ -245,6 +245,85 @@ body::-webkit-scrollbar {
     width: 200px;
     height: 200px;
 }
+#cone .col3 a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+
+
+#cone .col3 a i{
+    columns: violet;
+    font-size: 20px;
+    padding-right: 8px;
+}
+#cone .col3{
+    border-style:solid ;
+    border-width: 0px;
+    height: 160px;
+    width: 300px;
+    border-radius: 15px;
+    justify-content: center;
+    padding: 10px 20px;
+}
+#cone .col4 a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 300;
+}
+#cone .col4 a i{
+    columns: violet;
+    font-size: 20px;
+    padding-right: 8px;
+}
+#cone .col4{
+    border-style:solid ;
+    border-width: 0px;
+    height: 160px;
+    width: 300px;
+    border-radius: 15px;
+    justify-content: center;
+    padding: 10px 20px;
+}
+.form{
+    text-align: right;
+}
+.form input{
+    background-color: whitesmoke;
+    margin: 20px;
+    padding:16px;
+    border: 0px;
+    border-radius: 18px;
+}
+.form .comment{
+    background-color: whitesmoke;
+    margin: 20px;
+    padding:80px 13px;
+    border: 0px;
+    border-radius: 18px;
+    justify-content: start;
+}
+#cone{
+    padding: 60px 80px 60px 80px;
+    height: 100vh;
+}
+#cone .contact{
+    align-items: center;
+    justify-content: center;
+}
+.send{
+    padding: 17px 38px 17px 38px;
+    background-color: rgb(84, 21, 142);
+    color: rgb(231, 230, 230);
+    border-radius: 18px;
+    text-decoration: none;
+    margin:20px;
+    text-align: center;
+}
+
 @media only screen and (max-width: 1025px) {
     .logo{
         width: 90px;
@@ -415,6 +494,52 @@ body::-webkit-scrollbar {
         margin: 10px;
     
     }
+
+
+
+    #cone .col3 a i{
+        font-size: 20px;
+        padding-right: 8px;
+    }
+    #cone .col3{
+        height: 130px;
+        width: 280px;
+        padding: 0px 10px;
+    }
+    #cone .col4 a{
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: 300;
+    }
+    #cone .col4 a i{
+        font-size: 18px;
+        padding-right: 8px;
+    }
+    #cone .col4{
+        height: 130px;
+        width: 280px;
+        padding: 6px 20px;
+    }
+    .form input{
+        margin: 20px;
+        padding:13px;
+        border-radius: 18px;
+    }
+    .form .comment{
+        margin: 20px;
+        padding:60px 13px;
+    }
+    #cone{
+        padding: 30px 20px 20px 30px;
+    }
+    #cone .contact{
+        align-items: center;
+        justify-content: center;
+    }
+    .send{
+        margin:15px;
+        padding: 10px;
+    }
     
 }
 
@@ -458,5 +583,48 @@ body::-webkit-scrollbar {
     }
     .rt-img{
         width: 70vw;
+    }
+
+
+    #cone .col3 a i{
+        font-size: 20px;
+    }
+    #cone .col3{
+        height: 130px;
+        width: 280px;
+        padding: 0px 10px;
+    }
+    #cone .col4 a{
+        font-size: 15px;
+        font-weight: 300;
+    }
+    #cone .col4 a i{
+        font-size: 18px;
+        padding-right: 8px;
+    }
+    #cone .col4{
+        height: 130px;
+        width: 280px;
+        padding: 6px 20px;
+    }
+    .form input{
+        margin: 20px;
+        padding:13px;
+        border-radius: 18px;
+    }
+    .form .comment{
+        margin: 20px;
+        padding:60px 13px;
+    }
+    #cone{
+        padding: 60px 10px 60px 10px;
+    }
+    #cone .contact{
+        align-items: center;
+        justify-content: center;
+    }
+    .send{
+        margin:15px;
+        padding: 10px;
     }
 }
