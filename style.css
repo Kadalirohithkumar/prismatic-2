@@ -98,23 +98,41 @@ body::-webkit-scrollbar {
 .three{
     text-align: center;
     padding-top: 7%;
-    padding-bottom: 8%;
+    padding-bottom: 7%;
 }
-.card1-items .card{
+.rowe{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4%;
+
+}
+.carder{
     text-align: left;
-    margin: 20px;
-    margin-top: 60px;
-    padding: 20px 15px 20px 15px;
+    margin: 20px 20px;
+    background-color: transparent;
+    border-radius: 18px;
+    padding: 20px;
+    width: 300px;
+    align-self: normal;
+    position: relative;
 }
+.carousel-item .carder{
+    align-self: normal;
+}
+.carder a{
+    position: absolute;
+    bottom: 0;
+}
+
+
 .ssub-heading{
     font-size: 20px;
     font-weight: 600;
-    padding-top: 20px;
     padding-bottom: 20px;
 }
-.card-body p{
-    padding-bottom: 25px;
-}
+
 
 
 .sbutton{
@@ -123,7 +141,8 @@ body::-webkit-scrollbar {
     color: black;
     border-radius: 18px;
     text-decoration: none;
-    border: 2px solid rgb(197, 45, 192);
+    margin: 20px 0px;
+    border: 2px solid rgb(197, 45, 192); 
 }
 .ab{
     margin: 0px 160px;
@@ -135,7 +154,7 @@ body::-webkit-scrollbar {
     padding-bottom: 6%;
     background-color: whitesmoke;
     width: 100%;
-    }
+}
 
 .five{
     padding-top: 7%;
@@ -171,8 +190,8 @@ body::-webkit-scrollbar {
 .testmonials h5{
     text-align: right;
 }
-.card3-items .card{
-    margin-top: 60px;
+.card3-items .carder{
+    margin: 40px;
     border: 2px solid black;
     border-radius: 15px;
 }
@@ -237,6 +256,7 @@ body::-webkit-scrollbar {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 10%;
 }
 .div-1{
     padding: 10px;
@@ -245,84 +265,117 @@ body::-webkit-scrollbar {
     width: 200px;
     height: 200px;
 }
-#cone .col3 a{
-    color: black;
-    text-decoration: none;
-    font-size: 15px;
-    font-weight: 300;
+.cone{
+    padding-top: 6%;
+    padding-bottom: 6%;
 }
-
-
-
-#cone .col3 a i{
-    columns: violet;
-    font-size: 20px;
-    padding-right: 8px;
-}
-#cone .col3{
-    border-style:solid ;
-    border-width: 0px;
-    height: 160px;
-    width: 300px;
-    border-radius: 15px;
+.contact-us{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    padding: 10px 20px;
-}
-#cone .col4 a{
-    color: black;
-    text-decoration: none;
-    font-size: 15px;
-    font-weight: 300;
-}
-#cone .col4 a i{
-    columns: violet;
-    font-size: 20px;
-    padding-right: 8px;
-}
-#cone .col4{
-    border-style:solid ;
-    border-width: 0px;
-    height: 160px;
-    width: 300px;
-    border-radius: 15px;
-    justify-content: center;
-    padding: 10px 20px;
-}
-.form{
-    text-align: right;
-}
-.form input{
-    background-color: whitesmoke;
-    margin: 20px;
-    padding:16px;
-    border: 0px;
-    border-radius: 18px;
-}
-.form .comment{
-    background-color: whitesmoke;
-    margin: 20px;
-    padding:80px 13px;
-    border: 0px;
-    border-radius: 18px;
-    justify-content: start;
-}
-#cone{
-    padding: 60px 80px 60px 80px;
-    height: 100vh;
-}
-#cone .contact{
     align-items: center;
-    justify-content: center;
-}
-.send{
-    padding: 17px 38px 17px 38px;
-    background-color: rgb(84, 21, 142);
-    color: rgb(231, 230, 230);
-    border-radius: 18px;
-    text-decoration: none;
-    margin:20px;
     text-align: center;
 }
+.contact-cards{
+    flex: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.contact-form{
+    flex: 60%;
+}
+.contact1{
+    width: 50%;
+    border-radius: 18px;
+    padding: 10px 20px;
+    margin: 20px;
+}
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 8vw;
+}
+.contact-form form input{
+    border: 0px;
+    border-radius: 18px;
+    background-color: whitesmoke;
+    padding: 20px 10px;
+    margin: 15px;
+}
+.contact-form form textarea{
+    border: 0px;
+    border-radius: 18px;
+    background-color: whitesmoke;
+    padding: 20px 10px;
+    margin: 15px;
+}
+.contact-form form .sp{
+    padding: 16px 10px;
+    background-color: rgb(86, 34, 136);
+    color: white;
+}
+.contact-form p{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.footer{
+    padding-top: 4%;
+    padding-bottom: 4%;
+    background-color: rgb(188, 188, 188);
+}
+.container10{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.footer-logo{
+    flex: 30%;
+}
+.footer-logo .fo{
+    margin-left: 0px;
+}
+.footer-links{
+    flex: 40%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    gap: 50px;
+}
+.footer-links ul{
+    text-align: left;
+}
+.footer-links ul li{
+    list-style: none;
+    margin: 20px;
+}
+.footer-follow{
+    flex: 30%;
+}
+.footer-follow .footer-follow-logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+.footer-follow .footer-follow-logos a{
+    color: black;
+}
+
+
+
+
+
 
 @media only screen and (max-width: 1025px) {
     .logo{
@@ -349,18 +402,21 @@ body::-webkit-scrollbar {
         padding-right: 40px;
         padding-bottom: 4%;
     }
-    .card1-items .card{
-        text-align: left;
-        margin: 10px;
-        margin-top: 40px;
-        padding: 15px 10px 15px 10px;
-    }
     .rt-img{
         width: 18vw;
     }
     .loc .row{
         padding-bottom:10px ;
 
+    }
+    .container-8{
+        margin-top: 14%;
+    }
+    .contact1{
+        width: 70%;
+        border-radius: 18px;
+        padding: 10px 20px;
+        margin: 20px;
     }
 
     
@@ -435,14 +491,9 @@ body::-webkit-scrollbar {
         font-weight: 600;
         padding-top: 20px;
     }
-    .card1-items .card{
-        text-align: left;
-        margin: 5px;
-        margin-top: 30px;
-        padding: 10px 8px 10px 8px;
-    }
+    
     .ssub-heading{
-        font-size: 14px;
+        font-size: 18px;
         font-weight: 600;
     }
     .sbutton{
@@ -495,50 +546,30 @@ body::-webkit-scrollbar {
     
     }
 
-
-
-    #cone .col3 a i{
-        font-size: 20px;
-        padding-right: 8px;
+    .container-8{
+        margin-top: 14%;
     }
-    #cone .col3{
-        height: 130px;
-        width: 280px;
-        padding: 0px 10px;
+    .contact-form form{
+        display: flex;
+        flex-direction: column;
+        padding: 5px 4vw;
     }
-    #cone .col4 a{
-        text-decoration: none;
-        font-size: 15px;
-        font-weight: 300;
-    }
-    #cone .col4 a i{
-        font-size: 18px;
-        padding-right: 8px;
-    }
-    #cone .col4{
-        height: 130px;
-        width: 280px;
-        padding: 6px 20px;
-    }
-    .form input{
-        margin: 20px;
-        padding:13px;
+    .contact-form form input{
+        border: 0px;
         border-radius: 18px;
+        background-color: whitesmoke;
+        padding: 15px 7px;
+        margin: 8px;
     }
-    .form .comment{
-        margin: 20px;
-        padding:60px 13px;
+    .contact-form form textarea{
+        border: 0px;
+        border-radius: 18px;
+        background-color: whitesmoke;
+        padding: 15px 7px;
+        margin: 8px;
     }
-    #cone{
-        padding: 30px 20px 20px 30px;
-    }
-    #cone .contact{
-        align-items: center;
-        justify-content: center;
-    }
-    .send{
-        margin:15px;
-        padding: 10px;
+    .footer-links{
+        gap: 30px;
     }
     
 }
@@ -582,49 +613,34 @@ body::-webkit-scrollbar {
         padding-left: 7px;
     }
     .rt-img{
-        width: 70vw;
+        width: 50vw;
     }
 
-
-    #cone .col3 a i{
-        font-size: 20px;
+    .container-8{
+        margin-top: 20%;
     }
-    #cone .col3{
-        height: 130px;
-        width: 280px;
-        padding: 0px 10px;
-    }
-    #cone .col4 a{
-        font-size: 15px;
-        font-weight: 300;
-    }
-    #cone .col4 a i{
-        font-size: 18px;
-        padding-right: 8px;
-    }
-    #cone .col4{
-        height: 130px;
-        width: 280px;
-        padding: 6px 20px;
-    }
-    .form input{
-        margin: 20px;
-        padding:13px;
+    .carder{
+        text-align: left;
+        margin: 10px 20px;
+        background-color: transparent;
         border-radius: 18px;
+        padding: 20px;
+        width: 230px;
+        align-self: normal;
+        position: relative;
     }
-    .form .comment{
-        margin: 20px;
-        padding:60px 13px;
-    }
-    #cone{
-        padding: 60px 10px 60px 10px;
-    }
-    #cone .contact{
-        align-items: center;
+    .footer-follow .footer-follow-logos{
+        display: flex;
+        flex-direction: row;
         justify-content: center;
+        gap: 20px;
     }
-    .send{
-        margin:15px;
-        padding: 10px;
+    .footer-links{
+        gap: 20px;
+    }
+}
+@media only screen and (max-width: 321px) {
+    .container-8{
+        margin-top: 24%;
     }
 }
