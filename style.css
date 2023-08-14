@@ -637,6 +637,13 @@ body::-webkit-scrollbar {
     }
     .footer-links{
         gap: 20px;
+        flex: 100%;
+    }
+    .footer-logo{
+        flex: 100%;
+    }
+    .footer-follow{
+        flex: 100%;
     }
 }
 @media only screen and (max-width: 321px) {
