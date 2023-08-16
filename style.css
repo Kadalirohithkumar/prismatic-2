@@ -125,6 +125,18 @@ body::-webkit-scrollbar {
     position: absolute;
     bottom: 0;
 }
+.carder h2{
+    position: absolute;
+    top: 20%;
+    right: 15%;
+    cursor: pointer;
+}
+.gcolor{
+    background: linear-gradient(-10deg, white 60%, grey 50%);
+}
+.gcolor p{
+    padding-top: 50px;
+}
 
 
 .ssub-heading{
